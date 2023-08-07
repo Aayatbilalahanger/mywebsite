@@ -64,6 +64,11 @@ h1{
     left: 600px;
     bottom: 30px;
 }
-#control-section h3{
+#control-section a{
     text-align: center;
+    text-decoration: none;
+    color: whites;
+    position: relative;
+    left: 500px;
+    bottom: 30px;
 }
