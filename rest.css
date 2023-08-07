@@ -61,8 +61,8 @@ h1{
     height: 300px;
     /*! display: flex; */
     position: relative;
-    left: 600px;
-    bottom: 30px;
+    left: 0px;
+    bottom: 20px;
 }
 #control-section a{
     text-align: center;
@@ -70,5 +70,5 @@ h1{
     color: whites;
     position: relative;
     left: 500px;
-    bottom: 30px;
+    bottom: 20px;
 }
