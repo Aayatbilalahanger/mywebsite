@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script defer>
+    function abc(){
+      document.getElementById("aboutus").addEventListener("click",function(){
+        document.getElementById("aboutus").classList.toggle("xyz");
+      })
+    }
+    </script>
     <!-- !search engine optimization link is heare  -->
     <meta name="google-site-verification" content="FPrsl2z1kjzwStFwzFECNVFn8a3g5rkswJRqH1j0U9U" />
     <meta charset="UTF-8">
@@ -43,8 +50,9 @@
          -->
         <ul>
           <!-- <li><a href="#">Home</a></li> -->
-          <li><a href="#for" onclick="aboutus()">About us</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <!-- <li><a href="#for">About us</a></li>
+          <li><a href="#contact">Contact</a></li> -->
+          <a href="for.html"><button>Menu</button></a>
           <li><a href="sidebar.html" target="_blank">Learn</a></li>
         </ul>
       </div>
@@ -55,10 +63,12 @@
       <div id="two" onclick="two()"></div>
       <div id="three" onclick="three()"></div>
     </div>
+    <!-- !about us page -->
+    <div id="aboutus">
 
+    </div>
+  <div id="website-togglebar"> 
 
-
-  <div id="website-togglebar">
     <!--! todo section  -->
     <details>
       <summary>QUICK LINKS </summary>
